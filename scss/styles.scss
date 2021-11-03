@@ -1,0 +1,258 @@
+@import "variables";
+
+.titulos 
+{
+    h2
+    {
+        color: $color-titulos;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Nunito', sans-serif;
+    }
+    
+}
+.subtitulos
+{
+    color: $color-subtitulos;
+    margin: 15px;
+    padding: 10px;
+    p
+    {
+        color: $color-texto;
+        margin: 5px;
+    }
+}
+#texto
+{
+    color: $color-texto;
+}
+.menuinicial
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    margin: 30px;
+    li
+    {
+        display: inline-block;
+        position: relative;
+    &:hover ul
+    {
+        display: block;
+    }
+    }
+    ul
+    {
+    position: absolute;
+    display: none;
+        li 
+        {
+            display: block;
+            background-color: white;
+            color: $color-subtitulos;
+            text-align: left;
+        }
+    }
+}
+.footer
+{
+    margin: 10px;
+    padding: 20px;
+    background-image: linear-gradient(to left ,$color-subtitulos , white);
+}
+.precios
+{
+    margin: 10px;
+}
+.titulos__logo
+{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    &:hover
+    {
+        width: 500px;
+        transition: 5s;
+    }
+}
+a
+{
+    text-decoration: none;
+}
+#video
+{
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+.perfiles
+{
+    margin: 20px;
+    font-size: 10px ;
+    width: 300px;
+    padding: 20px;
+}
+.nosotros
+{
+    padding: 10px;
+}
+.padrenosotros
+{
+    display: flex;
+    justify-content: flex-start;
+    align-content: start;
+    flex-wrap: wrap;
+    p
+    {
+        width: 50%;
+    }
+}
+.imagen
+{
+    width: 300px;
+    margin: 10px;
+}
+h3
+{
+    color: dodgerblue;
+}
+.historia
+{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-column-gap: 40px;
+    margin: 50px;
+    grid-template-rows: 1500px 350px;
+    grid-row-gap: 10px ;
+    grid-template-areas: 
+    "div1 div2 div3"
+    "div4 div4 div4";
+}
+.div1
+{
+    grid-area: div1;
+}
+.div2
+{
+    grid-area: div2;
+}
+.div3
+{
+    grid-area: div3;
+}
+.div4
+{
+    grid-area: div4;
+}
+.footer__Copyrigth--redes
+{
+    width: 20px;
+    &:hover
+    {
+        width: 100px;
+    }
+}
+#leermas
+{
+    padding: 10px;
+    transition: 1s;
+}
+#leermas1
+{
+    padding: 10px;
+    transition: 1s;
+}
+#leermas2
+{
+    padding: 10px;
+    transition: 1s;
+}
+.submenu
+{
+    padding: 10px;
+}
+.contacto
+{
+    padding: 10px;
+}
+.contacto__textoeditable--despegable
+{
+    padding: 10px;
+}
+.dropdown-menu
+{
+    text-align: center;
+}
+.carousel-item
+{
+    width: 50%;
+}
+.espacio
+{
+    padding: 10px;
+} 
+.login
+{
+    padding: 10px;
+    color: blue;
+    .login__correo
+    {
+        margin: 15px;
+        padding: 10px;
+        .login__correo--mensaje
+        {
+            color: black;
+            font-size: 10px;
+        }
+    }
+    .login__contraseña
+    {
+        margin: 15px;
+        padding: 10px;
+        .login__contraseña--mensaje
+        {
+            color: black;
+            font-size: 10px;
+        }
+    }
+    .login__ingresar
+    {
+        margin: 15px;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(0, 102, 255);
+    }
+}
+@for $ser from 1 to 6 
+{
+    .servicio-#{$ser}
+    {
+        font-size: 10px * ($ser);
+        margin: 10px;
+    }
+}
+@each $color in blue, indigo, purple, gray, orange
+{
+    .#{$color}-background 
+    {
+        background-color: $color;
+        margin: 10px;
+    } 
+}
+$color:
+(
+    color1: red,
+    color2: green,
+    color3: yellow,
+);
+@each $key, $value in $color
+{
+    .#{$value}-background
+    {
+        background-color: $value;
+        color: black;
+    }
+}

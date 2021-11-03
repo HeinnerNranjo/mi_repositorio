@@ -1,0 +1,216 @@
+@charset "UTF-8";
+.titulos h2 {
+  color: navy;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Nunito', sans-serif; }
+
+.subtitulos {
+  color: deepskyblue;
+  margin: 15px;
+  padding: 10px; }
+  .subtitulos p {
+    color: black;
+    margin: 5px; }
+
+#texto {
+  color: black; }
+
+.menuinicial {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  justify-content: space-evenly;
+  margin: 30px; }
+  .menuinicial li {
+    display: inline-block;
+    position: relative; }
+    .menuinicial li:hover ul {
+      display: block; }
+  .menuinicial ul {
+    position: absolute;
+    display: none; }
+    .menuinicial ul li {
+      display: block;
+      background-color: white;
+      color: deepskyblue;
+      text-align: left; }
+
+.footer {
+  margin: 10px;
+  padding: 20px;
+  background-image: linear-gradient(to left, deepskyblue, white); }
+
+.precios {
+  margin: 10px; }
+
+.titulos__logo {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+  .titulos__logo:hover {
+    width: 500px;
+    transition: 5s; }
+
+a {
+  text-decoration: none; }
+
+#video {
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+.perfiles {
+  margin: 20px;
+  font-size: 10px;
+  width: 300px;
+  padding: 20px; }
+
+.nosotros {
+  padding: 10px; }
+
+.padrenosotros {
+  display: flex;
+  justify-content: flex-start;
+  align-content: start;
+  flex-wrap: wrap; }
+  .padrenosotros p {
+    width: 50%; }
+
+.imagen {
+  width: 300px;
+  margin: 10px; }
+
+h3 {
+  color: dodgerblue; }
+
+.historia {
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  grid-column-gap: 40px;
+  margin: 50px;
+  grid-template-rows: 1500px 350px;
+  grid-row-gap: 10px;
+  grid-template-areas: "div1 div2 div3" "div4 div4 div4"; }
+
+.div1 {
+  grid-area: div1; }
+
+.div2 {
+  grid-area: div2; }
+
+.div3 {
+  grid-area: div3; }
+
+.div4 {
+  grid-area: div4; }
+
+.footer__Copyrigth--redes {
+  width: 20px; }
+  .footer__Copyrigth--redes:hover {
+    width: 100px; }
+
+#leermas {
+  padding: 10px;
+  transition: 1s; }
+
+#leermas1 {
+  padding: 10px;
+  transition: 1s; }
+
+#leermas2 {
+  padding: 10px;
+  transition: 1s; }
+
+.submenu {
+  padding: 10px; }
+
+.contacto {
+  padding: 10px; }
+
+.contacto__textoeditable--despegable {
+  padding: 10px; }
+
+.dropdown-menu {
+  text-align: center; }
+
+.carousel-item {
+  width: 50%; }
+
+.espacio {
+  padding: 10px; }
+
+.login {
+  padding: 10px;
+  color: blue; }
+  .login .login__correo {
+    margin: 15px;
+    padding: 10px; }
+    .login .login__correo .login__correo--mensaje {
+      color: black;
+      font-size: 10px; }
+  .login .login__contraseña {
+    margin: 15px;
+    padding: 10px; }
+    .login .login__contraseña .login__contraseña--mensaje {
+      color: black;
+      font-size: 10px; }
+  .login .login__ingresar {
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    background-color: #0066ff; }
+
+.servicio-1 {
+  font-size: 10px;
+  margin: 10px; }
+
+.servicio-2 {
+  font-size: 20px;
+  margin: 10px; }
+
+.servicio-3 {
+  font-size: 30px;
+  margin: 10px; }
+
+.servicio-4 {
+  font-size: 40px;
+  margin: 10px; }
+
+.servicio-5 {
+  font-size: 50px;
+  margin: 10px; }
+
+.blue-background {
+  background-color: blue;
+  margin: 10px; }
+
+.indigo-background {
+  background-color: indigo;
+  margin: 10px; }
+
+.purple-background {
+  background-color: purple;
+  margin: 10px; }
+
+.gray-background {
+  background-color: gray;
+  margin: 10px; }
+
+.orange-background {
+  background-color: orange;
+  margin: 10px; }
+
+.red-background {
+  background-color: red;
+  color: black; }
+
+.green-background {
+  background-color: green;
+  color: black; }
+
+.yellow-background {
+  background-color: yellow;
+  color: black; }
