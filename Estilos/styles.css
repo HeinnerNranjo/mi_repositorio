@@ -161,7 +161,7 @@ h3 {
     margin: 15px;
     padding: 10px;
     text-align: center;
-    background-color: #0066ff; }
+    background-color: #00ccff; }
 
 .servicio-1 {
   font-size: 10px;
@@ -214,3 +214,7 @@ h3 {
 .yellow-background {
   background-color: yellow;
   color: black; }
+
+.tabla {
+  width: 500px;
+  margin: 10px; }
