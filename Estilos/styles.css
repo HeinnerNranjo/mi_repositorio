@@ -83,6 +83,10 @@ a {
   width: 300px;
   margin: 10px; }
 
+.historia__fieldset__imagen {
+  width: 300px;
+  margin: 10px; }
+
 h3 {
   color: dodgerblue; }
 
@@ -93,19 +97,19 @@ h3 {
   margin: 50px;
   grid-template-rows: 1500px 350px;
   grid-row-gap: 10px;
-  grid-template-areas: "div1 div2 div3" "div4 div4 div4"; }
+  grid-template-areas: "historia__div1 historia__div2 historia__div3" "historia__div4 historia__div4 historia__div4"; }
 
-.div1 {
-  grid-area: div1; }
+.historia__div1 {
+  grid-area: historia__div1; }
 
-.div2 {
-  grid-area: div2; }
+.historia__div2 {
+  grid-area: historia__div2; }
 
-.div3 {
-  grid-area: div3; }
+.historia__div3 {
+  grid-area: historia__div3; }
 
-.div4 {
-  grid-area: div4; }
+.historia__div4 {
+  grid-area: historia__div4; }
 
 .footer__Copyrigth--redes {
   width: 20px; }
@@ -148,13 +152,13 @@ h3 {
   .login .login__correo {
     margin: 15px;
     padding: 10px; }
-    .login .login__correo .login__correo--mensaje {
+    .login .login__correo .login__correo__mensaje {
       color: black;
       font-size: 10px; }
   .login .login__contraseña {
     margin: 15px;
     padding: 10px; }
-    .login .login__contraseña .login__contraseña--mensaje {
+    .login .login__contraseña .login__contraseña__mensaje {
       color: black;
       font-size: 10px; }
   .login .login__ingresar {
