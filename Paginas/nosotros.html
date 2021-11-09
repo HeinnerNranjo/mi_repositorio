@@ -12,20 +12,31 @@
     <!-- Meta Descripción -->
     <meta name="description" content="En SAC Argentina contamos con un equipo integrado de profesionales que diseña soluciones a medida y que está capacitado para resolver todas tus necesidades">
 </head>
-<body class="nosotros">
+    <!-- Logo + Menu : Inluye menu a las demas paginas y logo de la paginas. -->
     <header class="titulos">
-        <img class="titulos__logo" src="../Multimedia/logo_SAC.png" alt="logo">
+        <img class="titulos__logo" src="../Multimedia/logo_SAC.png" alt="logo"> 
+        <h2 class="titulos__textoeditable">Servicio de Asesoramiento Contable</h2>
+        <nav>
+            <ul class="menuinicial">
+                <li>
+                    <a href="../index.html">Inicio</a>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">Precios
+                </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <li><button class="dropdown-item" type="button"><a href="Precios.html">Auditoria</a></button></li>
+                        <li><button class="dropdown-item" type="button"><a href="Precios.html">Impuestos</a></button></li>
+                        <li><button class="dropdown-item" type="button"><a href="Precios.html">Sueldos</a></button></li>
+                        <li><button class="dropdown-item" type="button"><a href="Precios.html">Contabilidad</a></button></li>
+                    </ul>
+            </div>
+            </ul>
+        </nav>
         <h2>Nosotros</h2>
-    </header>
-    <hr>
-    <nav>
-        <ul class="menuinicial">
-            <li>
-                <a href="../index.html">Inicio</a>
-            </li>
-        </ul>
-    </nav> 
-        <hr>
+    </header> 
     <section class="subtitulos">
     <!-- Colaboradores: Integrantes de la empresa -->
         <h4>Colaboradores</h4>
@@ -72,29 +83,6 @@
             </p>
         </div>
     </section>
-    <hr>
-    <section class="subtitulos">
-        <h4>SAC Argentina</h4>
-        <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="../Multimedia/logo_SAC.png" class="d-block w-100" alt="Mision">
-                </div>
-                <div class="carousel-item">
-                    <img src="../Multimedia/logo_SAC.png" class="d-block w-100" alt="vision">
-                </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-    </section>
-    <hr>
     <footer  class="footer">
         <h5 class="footer__Copyrigth">Copyrigth, link para paginas sociales:
             <img class="footer__Copyrigth--redes" src="../Multimedia/what.jpeg" alt="whp">

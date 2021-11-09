@@ -32,7 +32,10 @@
     flex-direction: row;
     justify-content: flex-end;
     justify-content: space-evenly;
-    margin: 30px;
+    margin: 50px;
+    padding: 10px 50px;
+    border: PowderBlue 2px solid;
+    border-radius: 20px;
     li
     {
         display: inline-block;
@@ -83,10 +86,10 @@ a
 }
 #video
 {
-    margin: 20px;
+    margin: 300px;
     margin-left: auto;
     margin-right: auto;
-    display: block
+    display: block;
 }
 .perfiles
 {
@@ -105,6 +108,7 @@ a
     justify-content: flex-start;
     align-content: start;
     flex-wrap: wrap;
+    padding: 20px;
     p
     {
         width: 50%;
@@ -128,10 +132,10 @@ h3
 {
     display: grid;
     grid-template-columns: 350px 350px 350px;
-    grid-column-gap: 40px;
+    grid-column-gap: 50px;
     margin: 50px;
-    grid-template-rows: 1500px 350px;
-    grid-row-gap: 10px ;
+    grid-template-rows: 1500px 600px;
+    grid-row-gap: 1px ;
     grid-template-areas: 
     "historia__div1 historia__div2 historia__div3"
     "historia__div4 historia__div4 historia__div4";
