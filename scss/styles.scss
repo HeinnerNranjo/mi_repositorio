@@ -1,4 +1,5 @@
 @import "variables";
+@import "mediaquery";
 
 .titulos 
 {
@@ -88,13 +89,6 @@ a
 {
     text-decoration: none;
 }
-#video
-{
-    margin: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
 .perfiles
 {
     margin: 20px;
@@ -104,7 +98,9 @@ a
 }
 .cv
 {
-    text-align: center;
+    text-align: justify;
+    padding: 1px;
+    margin: 10px;
 }
 .nosotros
 {
@@ -117,52 +113,16 @@ a
     align-content: start;
     flex-wrap: wrap;
     padding: 20px;
-    p
-    {
-        width: 50%;
-    }
-}
-.imagen
-{
-    width: 300px;
-    margin: 10px;
+    justify-content: space-evenly;
 }
 .historia__fieldset__imagen
 {
-    width: 300px;
-    margin: 10px;
+    width: 410px;
+    height: 300px;
 }
 h3
 {
     color: dodgerblue;
-}
-.historia
-{
-    display: grid;
-    grid-template-columns: 350px 350px 350px;
-    grid-column-gap: 50px;
-    margin: 50px;
-    grid-template-rows: 1500px 600px;
-    grid-row-gap: 1px ;
-    grid-template-areas: 
-    "historia__div1 historia__div2 historia__div3"
-    "historia__div4 historia__div4 historia__div4";
-}
-.historia__div1
-{
-    grid-area: historia__div1;
-}
-.historia__div2
-{
-    grid-area: historia__div2;
-}
-.historia__div3
-{
-    grid-area: historia__div3;
-}
-.historia__div4
-{
-    grid-area: historia__div4;
 }
 .footer__Copyrigth--redes
 {
@@ -277,4 +237,8 @@ $color:
 {
     width: 500px;
     margin: 10px;
+}
+.accordion-body
+{
+    text-align: justify;
 }
