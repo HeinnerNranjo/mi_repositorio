@@ -1,4 +1,13 @@
 @charset "UTF-8";
+@media screen and (max-width: 280px) {
+  .titulos_logo {
+    font-size: 2rem !important; } }
+
+@media screen and (min-width: 280px) and (max-width: 750px) {
+  .tabla {
+    padding: 10px;
+    width: auto; } }
+
 .titulos h2 {
   color: navy;
   text-align: center;

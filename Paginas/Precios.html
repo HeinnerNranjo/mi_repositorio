@@ -40,75 +40,76 @@
     </header> 
     <nav>
     <h4 class="subtitulos">Generar Presupuesto</h4>
-    <table class="table table-success table-striped tabla" border="1"> 
-        <tr>
-            <th>Servicios</th>
-            <th>Mensual</th>
-            <th>Semestral</th>
-            <th>Anual</th>
-        </tr>
-        <tr>
-            <td>Liquidación de Sueldos
-                <form action=""id=servicio>
-                    <input type="checkbox" name="servicios" value="sueldos">
-                </form>
-            </td>
-            <td>$ </td>
-            <td>$ </td>
-            <td>$ </td>
-        </tr>
-        <tr>
-            <td>Contabilidad
-                <form action=""id=servicio>
-                    <input type="checkbox" name="servicios" value="Contabilidad">
-                </form>
-            </td>
-            <td>$ </td>
-            <td>$ </td>
-            <td>$ </td>
-        </tr>
-        <tr>
-            <td>Impuestos
-                <form action=""id=servicio>
-                    <input type="checkbox" name="servicios" value="Impuestos">
-                </form>
-            </td>
-            <td>$ </td>
-            <td>$ </td>
-            <td>$ </td>
-        </tr>
-        <tr>
-            <td>Auditoria
-                <form action=""id=servicio>
-                    <input type="checkbox" name="servicios" value="Auditoria">
-                </form>
-            </td>
-            <td>$ </td>
-            <td>$ </td>
-            <td>$ </td>
-        </tr>
-        <tr>
-            <td>Asesoramiento financiero
-                <form action=""id=servicio>
-                    <input type="checkbox" name="servicios" value="Financiero">
-                </form>
-            </td>
-            <td>$ </td>
-            <td>$ </td>
-            <td>$ </td>
-        </tr>
-    </table>
-    <br>
-    <form class="precios" action="">
-        <input type="text" name="Calcular" placeholder="Calcular Precios">
+    <section class="tabla">
+        <table class="table table-success table-striped tabla" border="1"> 
+            <tr>
+                <th>Servicios</th>
+                <th>Mensual</th>
+                <th>Semestral</th>
+                <th>Anual</th>
+            </tr>
+            <tr>
+                <td>Liquidación de Sueldos
+                    <form action=""id=servicio>
+                        <input type="checkbox" name="servicios" value="sueldos">
+                    </form>
+                </td>
+                <td>$ </td>
+                <td>$ </td>
+                <td>$ </td>
+            </tr>
+            <tr>
+                <td>Contabilidad
+                    <form action=""id=servicio>
+                        <input type="checkbox" name="servicios" value="Contabilidad">
+                    </form>
+                </td>
+                <td>$ </td>
+                <td>$ </td>
+                <td>$ </td>
+            </tr>
+            <tr>
+                <td>Impuestos
+                    <form action=""id=servicio>
+                        <input type="checkbox" name="servicios" value="Impuestos">
+                    </form>
+                </td>
+                <td>$ </td>
+                <td>$ </td>
+                <td>$ </td>
+            </tr>
+            <tr>
+                <td>Auditoria
+                    <form action=""id=servicio>
+                        <input type="checkbox" name="servicios" value="Auditoria">
+                    </form>
+                </td>
+                <td>$ </td>
+                <td>$ </td>
+                <td>$ </td>
+            </tr>
+            <tr>
+                <td>Asesoramiento financiero
+                    <form action=""id=servicio>
+                        <input type="checkbox" name="servicios" value="Financiero">
+                    </form>
+                </td>
+                <td>$ </td>
+                <td>$ </td>
+                <td>$ </td>
+            </tr>
+        </table>
         <br>
-        <br>
-        <p id="texto">A que correo lo enviamos</p>
-        <input type="text" name="Correo" placeholder="Correo">
-        <input type="submit">
-        <input type="reset">
-    </form>
-    <hr>
+        <form class="precios" action="">
+            <input type="text" name="Calcular" placeholder="Calcular Precios">
+            <br>
+            <br>
+            <p id="texto">A que correo lo enviamos</p>
+            <input type="text" name="Correo" placeholder="Correo">
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </section>
     <section>
     <!-- Servicios : Descripción de los servicios que ofrecemos por prioridad. -->
         <h4 class="subtitulos">Descripción Servicios por prioridad</h4>
