@@ -52,7 +52,7 @@
     display: none;
         li 
         {
-            display: block;
+            display: flex;
             background-color: white;
             color: $color-subtitulos;
             text-align: left;
@@ -79,11 +79,6 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-    &:hover
-    {
-        width: 500px;
-        transition: 5s;
-    }
 }
 a
 {
@@ -117,8 +112,8 @@ a
 }
 .historia__fieldset__imagen
 {
-    width: 410px;
-    height: 300px;
+    width: 350px;
+    height: 250px;
 }
 h3
 {
@@ -233,12 +228,21 @@ $color:
         color: black;
     }
 }
-.tabla
+.table-responsive
 {
-    width: 500px;
+    padding: 10px;
     margin: 10px;
 }
 .accordion-body
 {
     text-align: justify;
+}
+.video
+{
+    width: 600px;
+    height: 350px;
+}
+.accordion
+{
+    width: 350px;
 }

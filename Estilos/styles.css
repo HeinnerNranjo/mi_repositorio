@@ -1,12 +1,27 @@
 @charset "UTF-8";
-@media screen and (max-width: 280px) {
-  .titulos_logo {
-    font-size: 2rem !important; } }
-
 @media screen and (min-width: 280px) and (max-width: 750px) {
-  .tabla {
-    padding: 10px;
-    width: auto; } }
+  .titulos_logo {
+    width: 20px; } }
+
+@media screen and (min-width: 150px) and (max-width: 812px) {
+  .video {
+    display: none;
+    visibility: hidden; } }
+
+@media screen and (min-width: 280px) and (max-width: 812px) {
+  .accordion-body {
+    text-align: center;
+    font-size: small; } }
+
+@media screen and (min-width: 280px) and (max-width: 812px) {
+  .accordion {
+    padding: 5px;
+    width: 200px; } }
+
+@media screen and (min-width: 280px) and (max-width: 812px) {
+  .historia__fieldset__imagen {
+    padding: 5px;
+    width: 200px; } }
 
 .titulos h2 {
   color: navy;
@@ -43,7 +58,7 @@
     position: absolute;
     display: none; }
     .menuinicial ul li {
-      display: block;
+      display: flex;
       background-color: white;
       color: deepskyblue;
       text-align: left; }
@@ -64,9 +79,6 @@
   margin-left: auto;
   margin-right: auto;
   display: block; }
-  .titulos__logo:hover {
-    width: 500px;
-    transition: 5s; }
 
 a {
   text-decoration: none; }
@@ -94,8 +106,8 @@ a {
   justify-content: space-evenly; }
 
 .historia__fieldset__imagen {
-  width: 410px;
-  height: 300px; }
+  width: 350px;
+  height: 250px; }
 
 h3 {
   color: dodgerblue; }
@@ -208,9 +220,16 @@ h3 {
   background-color: yellow;
   color: black; }
 
-.tabla {
-  width: 500px;
+.table-responsive {
+  padding: 10px;
   margin: 10px; }
 
 .accordion-body {
   text-align: justify; }
+
+.video {
+  width: 600px;
+  height: 350px; }
+
+.accordion {
+  width: 350px; }
