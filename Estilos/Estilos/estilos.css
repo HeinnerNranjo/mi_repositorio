@@ -1,0 +1,183 @@
+.titulos h2
+{
+    color: darkblue;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+.subtitulos
+{
+    color: deepskyblue;
+    margin: 15px;
+    padding: 10px;
+}
+#texto
+{
+    color: rgb(97, 72, 209);
+}
+.menuinicial
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+.menuinicial li
+{
+    display: inline-block;
+    position: relative;
+}
+.menuinicial ul
+{
+    position: absolute;
+    display: none;
+}
+.menuinicial ul li 
+{
+    display: block;
+    background-color: white;
+    color: deepskyblue;
+    text-align: left;
+}
+.menuinicial li:hover ul
+{
+    display: block;
+}
+.footer
+{
+    margin: 10px;
+    padding: 20px;
+    background-image: linear-gradient(to left ,deepskyblue , white);
+}
+.logo
+{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+.logo:hover
+{
+    width: 500px;
+    transition: 5s;
+}
+a
+{
+    text-decoration: none;
+}
+#video
+{
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+.perfiles
+{
+    margin: 20px;
+    font-size: 10px ;
+    width: 300px;
+    padding: 20px;
+}
+.nosotros
+{
+    padding: 10px;
+}
+.padrenosotros
+{
+    display: flex;
+    justify-content: flex-start;
+    align-content: start;
+    flex-wrap: wrap;
+}
+.padrenosotros p
+{
+    width: 50%;
+}
+.imagen
+{
+    width: 300px;
+    margin: 10px;
+}
+h3
+{
+    color: dodgerblue;
+}
+.historia
+{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-column-gap: 40px;
+    margin: 50px;
+    grid-template-rows: 1500px 350px;
+    grid-row-gap: 10px ;
+    grid-template-areas: 
+    "div1 div2 div3"
+    "div4 div4 div4";
+}
+.div1
+{
+    grid-area: div1;
+}
+.div2
+{
+    grid-area: div2;
+}
+.div3
+{
+    grid-area: div3;
+}
+.div4
+{
+    grid-area: div4;
+}
+.redes
+{
+    width: 20px;
+}
+.redes:hover
+{
+    width: 100px;
+}
+.subtitulos p
+{
+    color: navy;
+    margin: 5px;
+}
+.datospersonales:hover
+{
+    width: 300px;
+    transition: all 2s;
+}
+#leermas
+{
+    padding: 10px;
+    transition: 1s;
+    background-color: gray;
+    color: black;
+}
+.submenu
+{
+    padding: 10px;
+}
+#contacto
+{
+    padding: 10px;
+}
+.espacio
+{
+    padding: 10px;
+}
+.desplegable
+{
+    padding: 10px;
+}
+.dropdown-menu
+{
+    text-align: center;
+}
+.carousel-item
+{
+    width: 50%;
+}

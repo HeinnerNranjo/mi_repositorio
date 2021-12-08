@@ -1,8 +1,13 @@
 @import "variables";
 @import "mediaquery";
-
-.titulos 
-{
+.titulos {
+    h1
+    {
+        color: $color-titulos;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Nunito', sans-serif;
+    }
     h2
     {
         color: $color-titulos;
@@ -10,7 +15,6 @@
         font-size: 30px;
         font-family: 'Nunito', sans-serif;
     }
-    
 }
 .subtitulos
 {
@@ -158,10 +162,6 @@ h3
 {
     text-align: center;
 }
-.carousel-item
-{
-    width: 50%;
-}
 .espacio
 {
     padding: 10px;
@@ -232,6 +232,10 @@ $color:
 {
     padding: 10px;
     margin: 10px;
+}
+.tabla
+{
+    background-color: #85C1E9
 }
 .accordion-body
 {
